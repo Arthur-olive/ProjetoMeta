@@ -1,0 +1,42 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: webhook-backend
+    ports:
+      - "3000:3000"
+    environment:
+      WEBHOOK_SECRET: "${WEBHOOK_SECRET:-dfn8sf9s8dmfsdf97sndfu}"
+      NODE_ENV: production
+      DB_PATH: "/app/data/db.json"
+    volumes:
+      - ./backend/data:/app/data
+    depends_on:
+      - receiver
+    restart: unless-stopped
+
+  receiver:
+    build:
+      context: ./receiver
+      dockerfile: Dockerfile
+    container_name: webhook-receiver
+    ports:
+      - "4000:4000"
+    environment:
+      WEBHOOK_SECRET: "${WEBHOOK_SECRET:-dfn8sf9s8dmfsdf97sndfu}"
+      NODE_ENV: production
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: webhook-frontend
+    ports:
+      - "5173:80"
+    restart: unless-stopped
+
+volumes:
+  backend-db:
+    name: projeto_meta_backend_db

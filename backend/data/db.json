@@ -1,0 +1,265 @@
+{
+  "subscribers": [
+    {
+      "id": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "status": "verified",
+      "challenge": "9c3c1ab1-61e4-49",
+      "createdAt": "2025-12-04T19:32:19.254Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "29e20c88-d8e7-4ef2-936c-6da6d620394b",
+      "subscriberId": "1cc24037-fa91-4074-aa70-37159fb702d6",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Teste via Docker com receiver",
+        "timestamp": "2025-12-04T18:13:56.639Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T18:13:56.650Z"
+    },
+    {
+      "id": "fd6930f1-1896-4652-ad60-2a21741975c7",
+      "subscriberId": "1cc24037-fa91-4074-aa70-37159fb702d6",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "mensagem de teste",
+        "timestamp": "2025-12-04T18:15:40.205Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T18:15:40.208Z"
+    },
+    {
+      "id": "9c7e3db2-3a82-44c8-839c-87dbc7f0eba6",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:26:35.592Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:35.598Z"
+    },
+    {
+      "id": "d11de319-54df-4a98-90b8-27c2760dcb33",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:26:36.855Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:36.859Z"
+    },
+    {
+      "id": "679b34ac-658a-4dde-b094-350a4ec5d7e6",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:26:37.677Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:37.681Z"
+    },
+    {
+      "id": "685e2e63-1378-4df2-bf78-0c2b6313cceb",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:26:38.310Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:38.314Z"
+    },
+    {
+      "id": "4361fa24-a654-4ab6-9c3a-358b1eb5f9e5",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:26:39.169Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:39.172Z"
+    },
+    {
+      "id": "ecb28d43-77a1-4002-8681-b1ac65246142",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:26:39.496Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:39.500Z"
+    },
+    {
+      "id": "b22a17e5-57f5-43d6-a7cd-04c00f51f9fc",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "CU",
+        "timestamp": "2025-12-04T19:26:49.466Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:49.469Z"
+    },
+    {
+      "id": "8f2d41da-7a35-4f8b-9489-23ad374edaf0",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "YES BABY",
+        "timestamp": "2025-12-04T19:26:55.478Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:55.483Z"
+    },
+    {
+      "id": "c13e67b9-a73e-4ec2-a21c-2440578702b2",
+      "subscriberId": "bfbdf31e-7614-447b-a195-6d960ec7514f",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "asdfasf",
+        "timestamp": "2025-12-04T19:26:59.404Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:26:59.407Z"
+    },
+    {
+      "id": "5c4482d2-31ed-4b5b-a993-29569c425065",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:32:21.037Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:32:21.040Z"
+    },
+    {
+      "id": "4cb57bda-d415-4d0d-a027-f89231b72e8d",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T19:32:22.288Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T19:32:22.290Z"
+    },
+    {
+      "id": "d37609c2-c8f5-40f1-ab2f-68884ba5dffd",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-04T23:13:58.393Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-04T23:13:58.424Z"
+    }
+  ]
+}

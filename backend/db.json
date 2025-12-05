@@ -1,0 +1,90 @@
+{
+  "subscribers": [
+    {
+      "id": "-LvMZ2K6O3NuRxQcX8ouj",
+      "url": "http://localhost:4000/webhook",
+      "status": "pending",
+      "challenge": "TfGS7t3Sx9yjX877",
+      "createdAt": "2025-12-04T17:30:20.971Z"
+    },
+    {
+      "id": "2TsjKH1ICu8-hPN4wJAB_",
+      "url": "http://localhost:4000",
+      "status": "verified",
+      "challenge": "Avr55CBZWTEy2b-N",
+      "createdAt": "2025-12-04T17:34:07.344Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "DP1eEmk1M8cCZltdZMOW4",
+      "subscriberId": "2TsjKH1ICu8-hPN4wJAB_",
+      "url": "http://localhost:4000",
+      "payload": {
+        "message": "Teste webhook",
+        "timestamp": "2025-12-04T17:36:05.236Z"
+      },
+      "result": {
+        "success": false,
+        "error": "Request failed with status code 404"
+      },
+      "time": "2025-12-04T17:36:08.248Z"
+    },
+    {
+      "id": "2Mng-U2_StgRl8TaM04Rc",
+      "subscriberId": "2TsjKH1ICu8-hPN4wJAB_",
+      "url": "http://localhost:4000",
+      "payload": {
+        "message": "Teste webhook",
+        "timestamp": "2025-12-04T17:36:23.894Z"
+      },
+      "result": {
+        "success": false,
+        "error": "Request failed with status code 404"
+      },
+      "time": "2025-12-04T17:36:26.904Z"
+    },
+    {
+      "id": "0CymmN53JdbOxq-rKiJk3",
+      "subscriberId": "2TsjKH1ICu8-hPN4wJAB_",
+      "url": "http://localhost:4000",
+      "payload": {
+        "message": "Teste webhook",
+        "timestamp": "2025-12-04T17:37:55.499Z"
+      },
+      "result": {
+        "success": false,
+        "error": "Request failed with status code 404"
+      },
+      "time": "2025-12-04T17:37:58.523Z"
+    },
+    {
+      "id": "LabEoIjYKQOZ0itDDdn9C",
+      "subscriberId": "2TsjKH1ICu8-hPN4wJAB_",
+      "url": "http://localhost:4000",
+      "payload": {
+        "message": "Teste webhook",
+        "timestamp": "2025-12-04T17:38:15.229Z"
+      },
+      "result": {
+        "success": false,
+        "error": "Request failed with status code 404"
+      },
+      "time": "2025-12-04T17:38:18.239Z"
+    },
+    {
+      "id": "VgrxyLMTR4YlUNXIX7erc",
+      "subscriberId": "2TsjKH1ICu8-hPN4wJAB_",
+      "url": "http://localhost:4000",
+      "payload": {
+        "message": "Teste webhook",
+        "timestamp": "2025-12-04T17:38:34.814Z"
+      },
+      "result": {
+        "success": false,
+        "error": "Request failed with status code 404"
+      },
+      "time": "2025-12-04T17:38:37.823Z"
+    }
+  ]
+}
