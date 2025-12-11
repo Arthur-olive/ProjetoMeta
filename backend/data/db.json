@@ -1,13 +1,5 @@
 {
-  "subscribers": [
-    {
-      "id": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
-      "url": "http://receiver:4000/webhook",
-      "status": "verified",
-      "challenge": "9c3c1ab1-61e4-49",
-      "createdAt": "2025-12-04T19:32:19.254Z"
-    }
-  ],
+  "subscribers": [],
   "logs": [
     {
       "id": "29e20c88-d8e7-4ef2-936c-6da6d620394b",
@@ -260,6 +252,384 @@
         }
       },
       "time": "2025-12-04T23:13:58.424Z"
+    },
+    {
+      "id": "9c6c54fd-131f-49de-a673-85d490f2249f",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:22.119Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:22.144Z"
+    },
+    {
+      "id": "af4553a4-eb37-4a6e-aa6e-7d99ba4aede6",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:28.909Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:28.912Z"
+    },
+    {
+      "id": "69f3e8b2-8087-46ef-9a1b-16d0119c51a3",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:29.088Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:29.092Z"
+    },
+    {
+      "id": "7fc8e15f-9797-4ca4-b872-6f3fe9411806",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:29.314Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:29.317Z"
+    },
+    {
+      "id": "30c08fcb-54c9-4976-989a-54076893a5f2",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:29.547Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:29.552Z"
+    },
+    {
+      "id": "91b51e0a-4634-4983-8483-3e3516a34fdd",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:29.657Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:29.660Z"
+    },
+    {
+      "id": "ad3cc220-1c27-45a4-822e-8f70a20bb341",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:30.016Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:30.022Z"
+    },
+    {
+      "id": "65c6faf2-992c-4805-9648-4f060e763021",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:30.190Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:30.195Z"
+    },
+    {
+      "id": "de09b1ef-3199-4db2-bd42-39da7a9a91c6",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:30.357Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:30.361Z"
+    },
+    {
+      "id": "0e0119c3-ca73-40cb-96a0-12a6daf31c11",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:30.507Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:30.511Z"
+    },
+    {
+      "id": "f4781869-5f49-4af7-a6cb-fbd2ffafa350",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:30.704Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:30.706Z"
+    },
+    {
+      "id": "d222443a-3711-49be-8a64-9bc0646f624b",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:30.865Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:30.868Z"
+    },
+    {
+      "id": "69837abd-1cf4-410d-a81f-4ad67c6344e5",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:31.073Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:31.075Z"
+    },
+    {
+      "id": "1bdbf167-bc2c-40a8-bf9e-6dbca0e682c5",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:31.250Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:31.253Z"
+    },
+    {
+      "id": "d9ca90e6-4630-40f9-b2b1-be853ed0cce3",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:31.448Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:31.451Z"
+    },
+    {
+      "id": "efb8c04f-4ae7-4622-89f0-6435975496fb",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:31.627Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:31.630Z"
+    },
+    {
+      "id": "347d0b86-467d-4f02-9902-e6c53e974018",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:31.800Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:31.803Z"
+    },
+    {
+      "id": "a72a5db2-18f1-4085-abb0-66a3d71fcb69",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:31.960Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:31.962Z"
+    },
+    {
+      "id": "25655c2c-579a-47eb-ae83-bfeb25c43cd2",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:32.166Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:32.168Z"
+    },
+    {
+      "id": "b93ab8be-38dc-4065-a844-ee18ba4adbbc",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:32.318Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:32.321Z"
+    },
+    {
+      "id": "cc1da141-995f-482b-b956-3597ed946482",
+      "subscriberId": "0c3f9fc2-7ec3-4ac3-ba31-888b3fb9a996",
+      "url": "http://receiver:4000/webhook",
+      "payload": {
+        "message": "Olá, webhook!",
+        "timestamp": "2025-12-11T18:47:32.498Z"
+      },
+      "result": {
+        "success": true,
+        "status": 200,
+        "data": {
+          "received": true,
+          "validSignature": true
+        }
+      },
+      "time": "2025-12-11T18:47:32.501Z"
     }
   ]
 }

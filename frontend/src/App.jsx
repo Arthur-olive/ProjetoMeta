@@ -285,14 +285,14 @@ export default function App() {
                     </aside>
                 </section>
 
-                <footer className="text-center text-xs text-base-content/70 mt-8">Projeto de Webhook • Desenvolvido localmente</footer>
+                <footer className="text-center text-xs text-base-content/70 mt-8">Webhook Manager | Protótipo</footer>
             </main>
 
             {selected && (
                 <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50" onClick={() => setSelected(null)}>
                     <div className="bg-base-100 rounded-lg p-6 w-full max-w-2xl" onClick={(e) => e.stopPropagation()}>
                         <div className="flex justify-between items-center mb-4">
-                            <h3 className="font-medium">Assinante</h3>
+                            <h3 className="font-medium">Assinantes</h3>
                             <button onClick={() => setSelected(null)} className="btn btn-ghost btn-sm">Fechar</button>
                         </div>
                         <div className="text-sm text-base-content/80">
